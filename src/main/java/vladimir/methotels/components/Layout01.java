@@ -10,7 +10,7 @@ import org.apache.tapestry5.SymbolConstants;
  * Layout component for pages of application test-project.
  */
 @Import(module = "bootstrap/collapse")
-public class Layout {
+public class Layout01 {
 
     @Inject
     private ComponentResources resources;
@@ -40,7 +40,7 @@ public class Layout {
         return new String[]{"Index", "About", "Contact"};
     }
 
-    @Import(stylesheet = "context:css/my.css")
+    @Import(stylesheet = "context:css/myPage1.css")
     void afterRender() {
     }
 

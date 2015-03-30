@@ -18,7 +18,7 @@ import java.util.Date;
 /**
  * Start page of application MetHotels.
  */
-public class Index
+public class Index1
 {
 	@Inject
 	private Logger logger;
@@ -46,6 +46,13 @@ public class Index
 				null;
 	}
 
+
+	Object onActionFromLearnMore()
+	{
+		about.setLearn("LearnMore");
+
+		return  about;
+	}
 
 	@Log
 	void onComplete()

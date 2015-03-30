@@ -1,0 +1,9 @@
+<html t:type="Layout01" title="AddRoom"
+      xmlns:t="http://tapestry.apache.org/schema/tapestry_5_3.xsd"
+      xmlns:p="tapestry:parameter">    
+
+    <h2>Room details:</h2>
+    <t:beaneditform object="room"/>
+    <t:grid t:source="rooms"/>
+
+</html>

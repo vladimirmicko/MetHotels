@@ -26,7 +26,7 @@ public class Login
 	private PasswordField password;
 
 	@InjectPage
-	private Index index;
+	private Index1 index;
 
 	@Property
 	private String emailValue;
